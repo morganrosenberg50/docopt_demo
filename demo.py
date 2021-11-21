@@ -18,3 +18,4 @@ def main(opt):
     if opt['<arg4>'] is not None: print(opt['<arg4>'])
     print(opt)
     print(type(opt))
+main(opt)
