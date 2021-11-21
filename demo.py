@@ -13,6 +13,8 @@ Options:
 
 from docopt import docopt
 opt = docopt(__doc__)
-if opt['<arg4>'] is not None: print(opt['<arg4>'])
-print(opt)
-print(type(opt))
+
+def main(opt):
+    if opt['<arg4>'] is not None: print(opt['<arg4>'])
+    print(opt)
+    print(type(opt))
